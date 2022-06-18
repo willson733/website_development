@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="backend.php" target="_blank">
+       <!-- target="_blank"->open in new tab -->
+        <div>
+            Name:<input type="text" name="my name">
+        </div>
+        <br>
+        <div>
+            email:<input type="email" name="myemail">
+        </div>
+
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <div>
+            <br>
+            <label for="pssword">Password:</label>
+            <input type="password" name="mypassword" id="pssword">
+        </div>
+        <br>
+
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender:<br> <input type="radio" name="myGender"> Male <input type="radio" name="myGender">
+            female <input type="radio" name="myGender"> Other
+        </div>
+
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <label for="car"> Car</label>
+            <select name="mycar" id="car">
+                <option value="ind"> Indica</option>
+                <option value="swt"> Swift</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset now">
+        </div>
+
+    </form>
+    <details>
+        <summary>BCT</summary>
+        BCT AB <br>
+        BCT CD
+    </details>
+<a href="mailto:willsonghimire58@gmail.com">Report us</a>
+
+</body>
+
+</html>
